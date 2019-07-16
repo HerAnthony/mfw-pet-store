@@ -1,17 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pet Store</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
 
-	<!-- scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pet Store</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<!--NavBar-->
+		<!-- (.container>
+			header.row>(.col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo+h1pull-left.text-centered{Pet
+			Store})+(nav.col-xs-12.col-sm-7.col-md-6>ul.nav.nav-pills.pull-right>(li[role="presentation"]>a)*3)) -->
+		<div class="container">
+			<header class="row">
+				<div class="col-xs-8 col-sm-4 col-md-6 centered">
+					<img src="img/petstore_logo.png" alt="#" class="pull-left logo">
+					<h1pull-left class="text-centered">Pet Store</h1pull-left>
+				</div>
+				<nav class="col-xs-12 col-sm-7 col-md-6">
+					<ul class="nav nav-pills pull-right">
+						<li role="presentation" class="active"><a href="#">Home</a></li>
+						<li role="presentation"><a href="#">Products</a></li>
+						<li role="presentation"><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<!--NavBar-->
+
+		<!--Jumbotron-->
+		<!-- (.jumbotron>.container.text-center.text-uppercase>h2{The products they love. Prices that you like.})*1 -->
+		<div class="jumbotron">
+			<div class="container text-center text-uppercase">
+				<h2>The products they love. Prices that you like.</h2>
+			</div>
+		</div>
+		<!--Jumbotron-->
+
+		<!--Main Section-->
+		<!-- (section.container>.row>.col-sm-7.text-justify.featured>h2.text-uppercase{Featured}+p{lorem}+.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img.img-responsive[src="img/product$.jpg"]+(.col-sm-12.col-xs-6>h4+p{lorem}+button.btn.btn-xs.center-block{Purchase Now})))*3) -->
+		<section class="container">
+			<div class="row">
+				<div class="col-sm-7 text-justify featured">
+					<h2 class="text-uppercase">Featured</h2>
+					<p>lorem</p>
+					<div class="row">
+						<div class="col-sm-4 product">
+							<div class="row">
+								<div class="col-sm-12 col-xs-6 img_box">
+									<img src="img/product1.jpg" alt="#" class="img-responsive">
+									<div class="col-sm-12 col-xs-6">
+										<h4></h4>
+										<p>lorem</p>
+										<button class="btn btn-xs center-block">Purchase Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 product">
+							<div class="row">
+								<div class="col-sm-12 col-xs-6 img_box">
+									<img src="img/product2.jpg" alt="#" class="img-responsive">
+									<div class="col-sm-12 col-xs-6">
+										<h4></h4>
+										<p>lorem</p>
+										<button class="btn btn-xs center-block">Purchase Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 product">
+							<div class="row">
+								<div class="col-sm-12 col-xs-6 img_box">
+									<img src="img/product3.jpg" alt="#" class="img-responsive">
+									<div class="col-sm-12 col-xs-6">
+										<h4></h4>
+										<p>lorem</p>
+										<button class="btn btn-xs center-block">Purchase Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- (aside.col-sm-3.col-sm-offset-2>h2.text-center.text-uppercase{Services}+ul.nav-pills.nav-stacked.text-center>(li[role=presentation]>a.text-uppercase{Adopt a}+p{lorem})*3) -->
+				<aside class="col-sm-3 col-sm-offset-2">
+					<h2 class="text-center text-uppercase">Services</h2>
+					<ul class="nav-pills nav-stacked text-center">
+						<li role="presentation">
+							<a href="" class="text-uppercase">Adopt a</a>
+							<p>lorem</p>
+						</li>
+						<li role="presentation">
+							<a href="" class="text-uppercase">Adopt a</a>
+							<p>lorem</p>
+						</li>
+						<li role="presentation">
+							<a href="" class="text-uppercase">Adopt a</a>
+							<p>lorem</p>
+						</li>
+					</ul>
+				</aside>
+			</div>
+		</section>
+		<!--Main Section-->
+
+
+		<!-- scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
 </html>
