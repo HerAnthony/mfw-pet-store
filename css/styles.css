@@ -15,14 +15,33 @@ header h1 {
     color: #5c433f;
     background-color: #eeddcd;
 }
-.jumbotron {
+.jumbotron_row {
     background-image: url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
 }
-.jumbotron h2 {
+.jumbotron_row h2 {
     font-family: 'Open Sans';
     font-weight: 300;
     color: #ffffff;
+}
+footer {
+    background-color: #eeddcd;
+}
+.social {
+    float: left;
+    text-align: left;
+}
+.fa-facebook-square {
+    color: #3b5998;
+    font-size: 1em;
+}
+.fa-twitter-square {
+    color: #38A1F3;
+    font-size: 1em;
+}
+.fa-linkedin-square {
+    color: #0077B5;
+    font-size: 1em;
 }
