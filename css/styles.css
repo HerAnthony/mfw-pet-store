@@ -8,6 +8,9 @@ header h1 {
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
 }
+.nav-pills a {
+    border: #000000 solid 1px;
+}
 .nav-pills > li.active > a {
     color: #5c433f;
     background-color: #eeddcd;
