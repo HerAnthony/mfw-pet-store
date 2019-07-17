@@ -26,6 +26,9 @@ header h1 {
     font-weight: 300;
     color: #ffffff;
 }
+/* .presentation >.text-uppercase > a{
+    background-color: #eeddcd;
+ } */
 footer {
     background-color: #eeddcd;
 }
