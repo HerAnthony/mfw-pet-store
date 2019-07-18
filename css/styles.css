@@ -1,51 +1,102 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
 
 .logo {
-    width: 35px;
+	width: 35px;
 }
 header h1 {
-    color: #c9c983;
-    font-family: 'Satisfy', cursive;
-    margin-top: 20px;
+	color: #c9c983;
+	font-family: 'Satisfy', cursive;
+	margin-top: 20px;
 }
 .nav-pills a {
-    border: #000000 solid 1px;
+	border: #000000 solid 1px;
 }
-.nav-pills > li.active > a {
-    color: #5c433f;
-    background-color: #eeddcd;
+.nav-pills > li.active > a:hover, .product button:hover {
+	color: #5c433f;
+	background-color: #eeddcd;
 }
 .jumbotron_row {
-    background-image: url(../img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 450px;
+	background-image: url(../img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
 }
 .jumbotron_row h2 {
-    font-family: 'Open Sans';
-    font-weight: 300;
-    color: #ffffff;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #ffffff;
 }
-/* .presentation >.text-uppercase > a{
-    background-color: #eeddcd;
- } */
+.nav li {
+	font-size: 15px;
+}
+li a {
+	color: #5c433f;
+	border: 1px solid;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+a:hover {
+	text-decoration: none;
+}
+nav {
+	top: 20px;
+}
+.featured {
+	margin-bottom: 60px;
+}
+.product {
+	background-color: #eeddcd;
+	border-radius: 5%;
+	border: 5px solid #ffffff;
+}
+.img_box {
+	margin: 10px 0px;
+}
+.product button {
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border: 1px solid #5c433f;
+}
+aside a, footer{
+	background-color: #eeddcd;
+}
 footer {
-    background-color: #eeddcd;
+	padding-top: 20px;
+	max-height: 100%
 }
-.social {
-    float: left;
-    text-align: left;
+footer a {
+	color: #5c433f;
 }
-.fa-facebook-square {
-    color: #3b5998;
-    height: 5px;
-    font-size: 1em;
+footer img {
+	height: 90px;
 }
-.fa-twitter-square {
-    color: #38A1F3;
-    font-size: 1em;
+.contact_info {
+	padding-left: 40px;
+	border-right: 1px solid #333333;
+	border-left: 1px solid #333333;
 }
-.fa-linkedin-square {
-    color: #0077B5;
-    font-size: 1em;
+.social, .contact_info {
+	padding-top: 15px;
+}
+footer, .fine_print {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #333333;
+}
+@media(max-width: 768px) {
+	.centered {
+		float: none;
+		margin: 0 auto;
+	}
+	nav {
+		padding-top: 0px;
+		padding-bottom: 10px;
+		top: 5px;
+	}
+	.social {
+		margin: 20px 10px 0px;
+	}
+	aside {
+		margin-bottom: 60px;
+	}
 }
